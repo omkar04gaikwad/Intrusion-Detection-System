@@ -180,9 +180,9 @@ pip install -r requirements.txt
 
 # Set environment variables
 export DATABASE_URL="postgresql://user:pass@host:port/db"
-export STRIPE_SECRET_KEY="sk_test_..."
-export FIREBASE_API_KEY="your_firebase_key"
-export JWT_SECRET_KEY="your_jwt_secret"
+export STRIPE_SECRET_KEY="<your_stripe_secret_key>"
+export FIREBASE_API_KEY="<your_firebase_key>"
+export JWT_SECRET_KEY="<your_jwt_token>"
 
 # Initialize database
 python src/models/model.py
